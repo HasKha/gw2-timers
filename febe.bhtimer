@@ -1,0 +1,251 @@
+{
+  "id": "febecm",
+  "name": "Temple of Febe CM",
+  "description": "Automatically begins on fight start.\nPress hotkey when split phase add dies.",
+  "author": "Haskha.7509",
+  "map": 1520,
+  "reset": {
+    "position": [ 0, -216, 205 ],
+    "radius": 20,
+    "requireEntry": true,
+    "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Febe - Phase 1",
+      "start": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": { 
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Greens",
+          "alert": "Greens",
+          "fillColor": [ 52, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 11, 78 ]
+        },
+        {
+          "warning": "Spreads",
+          "alert": "Spreads",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 21, 50, 88 ]
+        },
+        {
+          "warning": "Wall - Cerus",
+          "alert": "Wall - Cerus",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 30, 96 ]
+        },
+        {
+          "warning": "Wall - Envy",
+          "alert": "Wall - Envy",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 81 ]
+        },
+        {
+          "warning": "Tether",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 20, 46 ]
+        },
+        {
+          "warning": "Orbs",
+          "alert": "Orbs",
+          "fillColor": [ 190, 190, 190, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 51 ]
+        },
+        {
+          "warning": "AoE - Cerus",
+          "alert": "AoE - Cerus",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 67 ]
+        }
+      ]
+    },
+    {
+      "name": "Febe - Phase 2",
+      "start": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Greens",
+          "alert": "Greens",
+          "fillColor": [ 52, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 4, 72, 115, 138 ]
+        },
+        {
+          "warning": "Spreads",
+          "alert": "Spreads",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 14, 75, 82, 149, 195 ]
+        },
+        {
+          "warning": "Wall - Cerus",
+          "alert": "Wall - Cerus",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 24, 91, 159 ]
+        },
+        {
+          "warning": "Wall - Envy",
+          "alert": "Wall - Envy",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 96 ]
+        },
+        {
+          "warning": "Tether",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 40, 55, 107 ]
+        },
+        {
+          "warning": "Orbs",
+          "alert": "Orbs",
+          "fillColor": [ 190, 190, 190, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 36, 45, 113, 156 ]
+        },
+        {
+          "warning": "AoE - Cerus",
+          "alert": "AoE - Cerus",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 61, 128, 195 ]
+        },
+        {
+          "warning": "AoE - Rage",
+          "alert": "AoE - Rage",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 15, 135 ]
+        }
+      ]
+    },
+    {
+      "name": "Febe - Phase 3",
+      "start": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Greens",
+          "alert": "Greens",
+          "fillColor": [ 52, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 5, 73, 87, 140, 176, 207, 268 ]
+        },
+        {
+          "warning": "Spreads",
+          "alert": "Spreads",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 55, 63, 130, 146, 198, 236, 265 ]
+        },
+        {
+          "warning": "Wall - Cerus",
+          "alert": "Wall - Cerus",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 16, 83, 149, 218 ]
+        },
+        {
+          "warning": "Wall - Envy",
+          "alert": "Wall - Envy",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 71, 161, 251 ]
+        },
+        {
+          "warning": "Tether",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 41, 57, 125, 130, 192, 221, 259 ]
+        },
+        {
+          "warning": "Orbs",
+          "alert": "Orbs",
+          "fillColor": [ 190, 190, 190, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 27, 32, 99, 117, 168, 234 ]
+        },
+        {
+          "warning": "AoE - Cerus",
+          "alert": "AoE - Cerus",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 47, 114, 182, 249 ]
+        },
+        {
+          "warning": "AoE - Rage",
+          "alert": "AoE - Rage",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 10, 100, 190 ]
+        }
+      ]
+    }
+  ]
+}
