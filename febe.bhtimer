@@ -41,7 +41,7 @@
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 21, 50, 88 ]
+          "timestamps": [ 21, 51, 88 ]
         },
         {
           "warning": "Wall - Cerus",
@@ -49,7 +49,7 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 30, 96 ]
+          "timestamps": [ 30, 97 ]
         },
         {
           "warning": "Wall - Envy",
@@ -65,7 +65,7 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 20, 46 ]
+          "timestamps": [ 21, 46 ]
         },
         {
           "warning": "Orbs",
@@ -106,7 +106,7 @@
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 4, 72, 115, 138 ]
+          "timestamps": [ 4, 71, 115, 138 ]
         },
         {
           "warning": "Spreads",
@@ -114,7 +114,7 @@
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 14, 75, 82, 149, 195 ]
+          "timestamps": [ 14, 74, 81, 148 ]
         },
         {
           "warning": "Wall - Cerus",
@@ -122,7 +122,7 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 24, 91, 159 ]
+          "timestamps": [ 24, 91, 158 ]
         },
         {
           "warning": "Wall - Envy",
@@ -138,7 +138,7 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 40, 55, 107 ]
+          "timestamps": [ 40, 55, 107, 174, 175 ]
         },
         {
           "warning": "Orbs",
@@ -146,7 +146,7 @@
           "fillColor": [ 190, 190, 190, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 36, 45, 113, 156 ]
+          "timestamps": [ 35, 44, 111, 155 ]
         },
         {
           "warning": "AoE - Cerus",
@@ -154,7 +154,7 @@
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 61, 128, 195 ]
+          "timestamps": [ 60, 127 ]
         },
         {
           "warning": "AoE - Rage",
@@ -162,7 +162,7 @@
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 15, 135 ]
+          "timestamps": [ 14, 134 ]
         }
       ]
     },
@@ -187,7 +187,7 @@
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 5, 73, 87, 140, 176, 207, 268 ]
+          "timestamps": [ 5, 72, 87, 139, 177, 206, 267 ]
         },
         {
           "warning": "Spreads",
@@ -195,7 +195,7 @@
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 55, 63, 130, 146, 198, 236, 265 ]
+          "timestamps": [ 55, 62, 129, 145, 196, 235, 263 ]
         },
         {
           "warning": "Wall - Cerus",
@@ -203,7 +203,7 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 16, 83, 149, 218 ]
+          "timestamps": [ 16, 83, 150, 217 ]
         },
         {
           "warning": "Wall - Envy",
@@ -219,7 +219,7 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 41, 57, 125, 130, 192, 221, 259 ]
+          "timestamps": [ 41, 58, 125, 131, 192, 221, 259 ]
         },
         {
           "warning": "Orbs",
@@ -227,7 +227,7 @@
           "fillColor": [ 190, 190, 190, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 27, 32, 99, 117, 168, 234 ]
+          "timestamps": [ 27, 31, 98, 117, 165, 207, 232 ]
         },
         {
           "warning": "AoE - Cerus",
@@ -235,7 +235,7 @@
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 47, 114, 182, 249 ]
+          "timestamps": [ 46, 113, 180, 247 ]
         },
         {
           "warning": "AoE - Rage",
@@ -243,9 +243,9 @@
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 10, 100, 190 ]
+          "timestamps": [ 11, 101, 191 ]
         }
       ]
-    }
+    },
   ]
 }
