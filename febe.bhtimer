@@ -44,28 +44,36 @@
           "timestamps": [ 21, 51, 88 ]
         },
         {
-          "warning": "Wall - Cerus",
-          "alert": "Wall - Cerus",
+          "warning": "Wall - Boss",
+          "alert": "Wall - Boss",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 30, 97 ]
         },
         {
-          "warning": "Wall - Envy",
-          "alert": "Wall - Envy",
+          "warning": "Wall - Add",
+          "alert": "Wall - Add",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 81 ]
         },
         {
-          "warning": "Tether",
+          "warning": "Tether (Port 1)",
           "alert": "Tether",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 21, 46 ]
+          "timestamps": [ 21 ]
+        },
+        {
+          "warning": "Tether (Port 2)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 46 ]
         },
         {
           "warning": "Orbs",
@@ -76,8 +84,8 @@
           "timestamps": [ 51 ]
         },
         {
-          "warning": "AoE - Cerus",
-          "alert": "AoE - Cerus",
+          "warning": "AoE - Boss",
+          "alert": "AoE - Boss",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -117,16 +125,16 @@
           "timestamps": [ 14, 74, 81, 148 ]
         },
         {
-          "warning": "Wall - Cerus",
-          "alert": "Wall - Cerus",
+          "warning": "Wall - Boss",
+          "alert": "Wall - Boss",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 24, 91, 158 ]
         },
         {
-          "warning": "Wall - Envy",
-          "alert": "Wall - Envy",
+          "warning": "Wall - Add",
+          "alert": "Wall - Add",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -138,7 +146,31 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 40, 55, 107, 174, 175 ]
+          "timestamps": [ 174, 175 ]
+        },
+        {
+          "warning": "Tether (Portal 1)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 40 ]
+        },
+        {
+          "warning": "Tether (Portal 2)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 55 ]
+        },
+        {
+          "warning": "Tether (Portal 3)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 107 ]
         },
         {
           "warning": "Orbs",
@@ -149,16 +181,16 @@
           "timestamps": [ 35, 44, 111, 155 ]
         },
         {
-          "warning": "AoE - Cerus",
-          "alert": "AoE - Cerus",
+          "warning": "AoE - Boss",
+          "alert": "AoE - Boss",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 60, 127 ]
         },
         {
-          "warning": "AoE - Rage",
-          "alert": "AoE - Rage",
+          "warning": "AoE - Add",
+          "alert": "AoE - Add",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -198,16 +230,16 @@
           "timestamps": [ 55, 62, 129, 145, 196, 235, 263 ]
         },
         {
-          "warning": "Wall - Cerus",
-          "alert": "Wall - Cerus",
+          "warning": "Wall - Boss",
+          "alert": "Wall - Boss",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 16, 83, 150, 217 ]
         },
         {
-          "warning": "Wall - Envy",
-          "alert": "Wall - Envy",
+          "warning": "Wall - Add",
+          "alert": "Wall - Add",
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -219,7 +251,39 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 41, 58, 125, 131, 192, 221, 259 ]
+          "timestamps": [ 58, 131, 259 ]
+        },
+        {
+          "warning": "Tether (Port 2, stay out)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 41 ]
+        },
+        {
+          "warning": "Tether x2 (Port 1, place 2)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 125 ]
+        },
+        {
+          "warning": "Tether (Port 2, open 3)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 192 ]
+        },
+        {
+          "warning": "Tether (Port 3, open 1)",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 221 ]
         },
         {
           "warning": "Orbs",
@@ -230,20 +294,85 @@
           "timestamps": [ 27, 31, 98, 117, 165, 207, 232 ]
         },
         {
-          "warning": "AoE - Cerus",
-          "alert": "AoE - Cerus",
+          "warning": "AoE - Boss",
+          "alert": "AoE - Boss",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 46, 113, 180, 247 ]
         },
         {
-          "warning": "AoE - Rage",
-          "alert": "AoE - Rage",
+          "warning": "AoE - Add",
+          "alert": "AoE - Add",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 11, 101, 191 ]
+        }
+      ]
+    },
+    {
+      "name": "Febe - Phase 4",
+      "start": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "position": [ 0, -102, 178 ],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Greens",
+          "alert": "Greens",
+          "fillColor": [ 52, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 16, 46 ]
+        },
+        {
+          "warning": "Spreads",
+          "alert": "Spreads",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 6, 36, 66 ]
+        },
+        {
+          "warning": "Wall - Add",
+          "alert": "Wall - Add",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 13, 43 ]
+        },
+        {
+          "warning": "Tether",
+          "alert": "Tether",
+          "fillColor": [ 161, 52, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 31, 61 ]
+        },
+        {
+          "warning": "Orbs",
+          "alert": "Orbs",
+          "fillColor": [ 190, 190, 190, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 26, 56 ]
+        },
+        {
+          "warning": "AoE - Add",
+          "alert": "AoE - Add",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 21, 51 ]
         }
       ]
     },
