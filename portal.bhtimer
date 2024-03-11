@@ -58,15 +58,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -100,15 +92,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -142,15 +126,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -184,15 +160,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -226,15 +194,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -268,15 +228,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -310,15 +262,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -352,15 +296,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -394,15 +330,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
@@ -436,15 +364,7 @@
         "requireEntry": true,
         "type": "key",
         "keyBind": "1"
-      },
-      "alerts": [
-        {
-          "warning": "Open Portal",
-          "fillColor": [223, 51, 255, 0],
-          "warningDuration": 10,
-          "timestamps": [10]
-        }
-      ]
+      }
     },
     {
       "start": {
