@@ -130,7 +130,15 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 24, 91, 158 ]
+          "timestamps": [ 24 ]
+        },
+        {
+          "warning": "Wall x2 - Boss",
+          "alert": "Wall - Boss",
+          "fillColor": [ 52, 164, 235, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 91 ]
         },
         {
           "warning": "Wall - Add",
@@ -139,14 +147,6 @@
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 96 ]
-        },
-        {
-          "warning": "Tether",
-          "alert": "Tether",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 174, 175 ]
         },
         {
           "warning": "Tether (Portal 1)",
@@ -178,7 +178,7 @@
           "fillColor": [ 190, 190, 190, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 35, 44, 111, 155 ]
+          "timestamps": [ 35, 44, 111 ]
         },
         {
           "warning": "AoE - Boss",
