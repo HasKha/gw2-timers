@@ -2,7 +2,7 @@
 If you find mistakes or possible improvements, bug reports or pull requests are appreciated.
 
 ## Usage
-- Git clone this repo, or put the zip, under `/addons/blishhud/timers/febe/`
+- Git clone this repo, or put the zip, under `/addons/blishhud/timers/`
 - Enable timer in Blish Timers module.
 
 ## Temple of Febe CM
