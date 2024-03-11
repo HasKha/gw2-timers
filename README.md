@@ -11,3 +11,8 @@ If you find mistakes or possible improvements, bug reports or pull requests are 
 - Split phase mechanics are not included.
 - Example: https://www.youtube.com/watch?v=eHbggJGAxso
 
+## Portal Weaving timer
+- Due to limitations of the timers module, this only works in the Febe instance.
+- Set your Trigger Key 1 to be the same as your portal key.
+- When using portal, it will display remaining time.
+- Example: https://www.youtube.com/watch?v=rZTPtkCeLVY

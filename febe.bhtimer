@@ -1,7 +1,7 @@
 {
   "id": "febecm",
   "name": "Temple of Febe CM",
-  "description": "Automatically begins on fight start.\nPress hotkey when split phase add dies.",
+  "description": "Automatically begins on fight start.\nPress trigger key 0 when split phase add dies.",
   "author": "Haskha.7509",
   "map": 1520,
   "reset": {

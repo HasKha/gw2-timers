@@ -1,0 +1,469 @@
+{
+  "id": "febeportal",
+  "name": "Febe Portal Weaving",
+  "description": "Displays the time left to open a portal\nRequires the portal key to be the same as trigger key 1.",
+  "author": "Haskha.7509",
+  "map": 1520,
+  "reset": {
+    "position": [0, -216, 205],
+    "radius": 20,
+    "requireEntry": true,
+    "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      }
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true,
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Open Portal",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 10,
+          "timestamps": [10]
+        }
+      ]
+    },
+    {
+      "start": {
+        "position": [0, -102, 178],
+        "radius": 2000,
+        "requireEntry": true
+      },
+      "finish": {
+        "type": "key",
+        "keyBind": "1"
+      },
+      "alerts": [
+        {
+          "warning": "Portal Weaving",
+          "fillColor": [223, 51, 255, 0],
+          "warningDuration": 60,
+          "timestamps": [60]
+        }
+      ]
+    }
+  ]
+}
