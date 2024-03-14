@@ -61,7 +61,7 @@
         },
         {
           "warning": "Tether (Port 1)",
-          "alert": "Tether",
+          "alert": "Tether (Port 1)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -69,7 +69,7 @@
         },
         {
           "warning": "Tether (Port 2)",
-          "alert": "Tether",
+          "alert": "Tether (Port 2)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -222,12 +222,28 @@
           "timestamps": [ 5, 72, 87, 139, 177, 206, 267 ]
         },
         {
-          "warning": "Spreads",
-          "alert": "Spreads",
+          "warning": "Spreads (Distort)",
+          "alert": "Spreads (Distort)",
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 55, 62, 129, 145, 196, 235, 263 ]
+          "timestamps": [ 62, 145, 235 ]
+        },
+        {
+          "warning": "Spreads (Line, right)",
+          "alert": "Spreads (Line, right)",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 55 ]
+        },
+        {
+          "warning": "Spreads (Arc)",
+          "alert": "Spreads (Arc)",
+          "fillColor": [ 235, 52, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 129, 196 ]
         },
         {
           "warning": "Wall - Boss",
@@ -262,7 +278,7 @@
           "timestamps": [ 41 ]
         },
         {
-          "warning": "Tether x2 (Port 1, place 2)",
+          "warning": "Tether x2 (Port 1, Everyone out)",
           "alert": "Tether",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
@@ -291,7 +307,15 @@
           "fillColor": [ 190, 190, 190, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 27, 31, 98, 117, 165, 207, 232 ]
+          "timestamps": [ 27, 98, 117, 165, 207, 232 ]
+        },
+        {
+          "warning": "Orbs (Place 3 on triangle)",
+          "alert": "Orbs",
+          "fillColor": [ 190, 190, 190, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 31 ]
         },
         {
           "warning": "AoE - Boss",
@@ -299,7 +323,15 @@
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 46, 113, 180, 247 ]
+          "timestamps": [ 46, 113, 247 ]
+        },
+        {
+          "warning": "AoE - Boss - Place 2",
+          "alert": "AoE - Boss",
+          "fillColor": [ 225, 235, 52, 0 ],
+          "warningDuration": 7.5,
+          "alertDuration": 1,
+          "timestamps": [ 180 ]
         },
         {
           "warning": "AoE - Add",
@@ -375,6 +407,6 @@
           "timestamps": [ 21, 51 ]
         }
       ]
-    },
+    }
   ]
 }

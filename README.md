@@ -10,6 +10,7 @@ If you find mistakes or possible improvements, bug reports or pull requests are 
 - Mechanics are only included up to a certain point, teams should phase after those.
 - Split phase mechanics are not included.
 - Example: https://www.youtube.com/watch?v=eHbggJGAxso
+- Timers contain specific callouts for my own prog group. Sorry. Go delete them if that bothers you.
 
 ## Portal Weaving timer
 - Due to limitations of the timers module, this only works in the Febe instance.
