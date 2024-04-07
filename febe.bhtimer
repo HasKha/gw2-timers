@@ -28,8 +28,8 @@
       },
       "alerts": [
         {
-          "warning": "Greens",
-          "alert": "Greens",
+          "warning": "Green",
+          "alert": "Green",
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -109,8 +109,8 @@
       },
       "alerts": [
         {
-          "warning": "Greens",
-          "alert": "Greens",
+          "warning": "Green",
+          "alert": "Green",
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -138,15 +138,7 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 24 ]
-        },
-        {
-          "warning": "Wall x2 - Boss",
-          "alert": "Wall - Boss",
-          "fillColor": [ 52, 164, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 91 ]
+          "timestamps": [ 24, 91 ]
         },
         {
           "warning": "Wall - Add",
@@ -222,60 +214,28 @@
       },
       "alerts": [
         {
-          "warning": "Greens",
-          "alert": "Greens",
+          "warning": "Green",
+          "alert": "Green",
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 5, 72, 139, 177, 206, 267 ]
         },
         {
-          "warning": "Greens - Move with the wall",
-          "alert": "Greens - Move with the wall",
+          "warning": "Green",
+          "alert": "Green",
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 87 ]
         },
         {
-          "warning": "Spreads (Distort)",
-          "alert": "Spreads (Distort)",
+          "warning": "Spreads",
+          "alert": "Spreads",
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 145 ]
-        },
-        {
-          "warning": "Spreads (Lines)",
-          "alert": "Spreads (Line)",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 55 ]
-        },
-        {
-          "warning": "Spreads (Lines, Distort) into portals",
-          "alert": "Spreads (Line)",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 62 ]
-        },
-        {
-          "warning": "Spreads (Safe arc)",
-          "alert": "Spreads (Safe arc)",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 129, 196 ]
-        },
-        {
-          "warning": "Spreads - Sand portal and Distort",
-          "alert": "Spreads - Sand portal and Distort",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 235 ]
+          "timestamps": [ 55, 62, 129, 145, 196, 235 ]
         },
         {
           "warning": "Wall - Boss",
@@ -283,15 +243,7 @@
           "fillColor": [ 52, 164, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 16, 83, 150 ]
-        },
-        {
-          "warning": "Wall - Boss - Bait on circle",
-          "alert": "Wall - Boss - Bait on circle",
-          "fillColor": [ 52, 164, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 217 ]
+          "timestamps": [ 16, 83, 150, 217 ]
         },
         {
           "warning": "Wall - Add",
@@ -310,23 +262,23 @@
           "timestamps": [ 58, 131, 259 ]
         },
         {
-          "warning": "Tether (Port 2, stay out)",
-          "alert": "Tether",
+          "warning": "Tether (Port 1, stay out)",
+          "alert": "Tether (Port 2, stay out)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 41 ]
         },
         {
-          "warning": "Tether x2 (Port 1, Everyone out)",
-          "alert": "Tether",
+          "warning": "Tether (Port 1, everyone out)",
+          "alert": "Tether (Port 1, everyone out)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 125 ]
         },
         {
-          "warning": "Tether (Port 2, place 3)",
+          "warning": "Tether (Port 2)",
           "alert": "Tether",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
@@ -334,7 +286,7 @@
           "timestamps": [ 192 ]
         },
         {
-          "warning": "Tether (Port 3, place 1 North)",
+          "warning": "Tether (Port 3)",
           "alert": "Tether",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
@@ -347,15 +299,7 @@
           "fillColor": [ 190, 190, 190, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 27, 98, 117, 165, 207, 232 ]
-        },
-        {
-          "warning": "Collection (Place 3 on triangle)",
-          "alert": "Collection",
-          "fillColor": [ 190, 190, 190, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 31 ]
+          "timestamps": [ 27, 31, 98, 117, 165, 207, 232 ]
         },
         {
           "warning": "AoE - Boss",
@@ -366,16 +310,16 @@
           "timestamps": [ 46, 247 ]
         },
         {
-          "warning": "AoE - Boss - Sand portal on Star",
-          "alert": "AoE - Boss - Sand portal on Star",
+          "warning": "AoE - Boss - NE",
+          "alert": "AoE - Boss - NE",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 113 ]
         },
         {
-          "warning": "AoE - Boss - Sand portal on Star - Place 2",
-          "alert": "AoE - Boss - Sand portal on Star - Place 2",
+          "warning": "AoE - Boss - SW",
+          "alert": "AoE - Boss - SW",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -407,8 +351,8 @@
       },
       "alerts": [
         {
-          "warning": "Greens",
-          "alert": "Greens",
+          "warning": "Green",
+          "alert": "Green",
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -420,23 +364,7 @@
           "fillColor": [ 235, 52, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 66 ]
-        },
-        {
-          "warning": "Spreads - Take port 1, safe arc",
-          "alert": "Spreads - Take port 1, safe arc",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 6 ]
-        },
-        {
-          "warning": "Spreads - Stack, distort",
-          "alert": "Spreads - Stack, distort",
-          "fillColor": [ 235, 52, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 36 ]
+          "timestamps": [ 6, 36, 66 ]
         },
         {
           "warning": "Wall - Add",
@@ -452,15 +380,7 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 61 ]
-        },
-        {
-          "warning": "Tether - Sand portal East",
-          "alert": "Tether - Sand portal East",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 31 ]
+          "timestamps": [ 31, 61 ]
         },
         {
           "warning": "Collection",
