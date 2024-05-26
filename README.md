@@ -16,5 +16,5 @@ If you find mistakes or possible improvements, bug reports or pull requests are 
 - Set your Trigger Key 1 to be the same as your portal key.
 - When using portal, it will display remaining time.
 
-## Example
+## Example (slightly outdated)
 - https://www.youtube.com/watch?v=hSowQexOmGQ
