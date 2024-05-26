@@ -24,3 +24,5 @@ jobs:
           exclusions: 
             LICENSE
             README.md
+            .github/*
+            .git/*
