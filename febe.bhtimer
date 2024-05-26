@@ -60,16 +60,16 @@
           "timestamps": [ 81 ]
         },
         {
-          "warning": "Tether (Port 1)",
-          "alert": "Tether (Port 1)",
+          "warning": "Tether (Scourge portal)",
+          "alert": "Tether (Scourge portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 21 ]
         },
         {
-          "warning": "Tether (Port 2)",
-          "alert": "Tether (Port 2)",
+          "warning": "Tether (Mesmer portal)",
+          "alert": "Tether (Mesmer portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -149,28 +149,20 @@
           "timestamps": [ 96 ]
         },
         {
-          "warning": "Tether (Portal 1)",
-          "alert": "Tether (Portal 1)",
+          "warning": "Tether (Mesmer portal)",
+          "alert": "Tether (Mesmer portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 40 ]
+          "timestamps": [ 40, 107 ]
         },
         {
-          "warning": "Tether (Portal 2)",
-          "alert": "Tether (Portal 2)",
+          "warning": "Tether (Scourge portal)",
+          "alert": "Tether (Scourge portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 55 ]
-        },
-        {
-          "warning": "Tether (Portal 3)",
-          "alert": "Tether (Portal 3)",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 107 ]
         },
         {
           "warning": "Collection",
@@ -219,15 +211,7 @@
           "fillColor": [ 52, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 5, 72, 139, 177, 206, 267 ]
-        },
-        {
-          "warning": "Green",
-          "alert": "Green",
-          "fillColor": [ 52, 235, 52, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 87 ]
+          "timestamps": [ 5, 72, 87, 139, 177, 206, 267 ]
         },
         {
           "warning": "Spreads",
@@ -262,32 +246,24 @@
           "timestamps": [ 58, 131, 259 ]
         },
         {
-          "warning": "Tether (Port 1, stay out)",
-          "alert": "Tether (Port 2, stay out)",
+          "warning": "Tether (Mesmer portal)",
+          "alert": "Tether (Mesmer portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 41 ]
+          "timestamps": [ 41, 125 ]
         },
         {
-          "warning": "Tether (Port 1, everyone out)",
-          "alert": "Tether (Port 1, everyone out)",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 125 ]
-        },
-        {
-          "warning": "Tether (Port 2)",
-          "alert": "Tether",
+          "warning": "Tether (Mesmer portal)",
+          "alert": "Tether (Mesmer portal)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
           "timestamps": [ 192 ]
         },
         {
-          "warning": "Tether (Port 3)",
-          "alert": "Tether",
+          "warning": "Tether (Move out)",
+          "alert": "Tether (Phase now)",
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,

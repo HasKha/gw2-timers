@@ -9,7 +9,7 @@ If you find mistakes or possible improvements, bug reports or pull requests are 
 - Timer will start automatically when entering combat. You must press the interaction key when the split phase add is killed in the 80% and 50% split phase.
 - Mechanics are only included up to a certain point, teams should phase after those.
 - Split phase mechanics are not included.
-- Timers contain specific callouts for my own prog group. Sorry. Go delete them if that bothers you.
+- Timers contain some annotations on mechanics, such as `Tether (Mesmer portal)`.
 
 ## Portal Weaving timer
 - Due to limitations of the timers module, this only works in the Febe instance.
