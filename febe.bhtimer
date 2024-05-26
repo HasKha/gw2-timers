@@ -1,6 +1,7 @@
 {
   "id": "febecm",
   "name": "Temple of Febe CM",
+  "category": "Strikes",
   "description": "Automatically begins on fight start.\nPress trigger key 0 when split phase add dies.",
   "author": "Haskha.7509",
   "map": 1520,
@@ -27,6 +28,12 @@
         "keyBind": "0"
       },
       "alerts": [
+        { 
+          "alert": "Phase 1",
+          "alertDuration": 3.8, 
+          "timestamps": [0],
+          "icon": "Assets/Cerus.png"
+        },
         {
           "warning": "Green",
           "alert": "Green",
@@ -65,7 +72,8 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 21 ]
+          "timestamps": [ 21 ],
+          "icon": "Assets/Sand_Swell.png"
         },
         {
           "warning": "Tether (Mesmer portal)",
@@ -73,7 +81,8 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 46 ]
+          "timestamps": [ 46 ],
+          "icon": "Assets/Portal_Entre.png"
         },
         {
           "warning": "Collection",
@@ -108,6 +117,12 @@
         "keyBind": "0"
       },
       "alerts": [
+ 	      { 
+          "alert": "Phase 2",
+          "alertDuration": 3.8,
+          "timestamps": [0],
+          "icon": "Assets/Cerus.png"
+        },
         {
           "warning": "Green",
           "alert": "Green",
@@ -154,7 +169,8 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 40, 107 ]
+          "timestamps": [ 40, 107 ],
+	        "icon": "Assets/Portal_Entre.png"
         },
         {
           "warning": "Tether (Scourge portal)",
@@ -162,7 +178,8 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 55 ]
+          "timestamps": [ 55 ],
+          "icon": "Assets/Sand_Swell.png"
         },
         {
           "warning": "Collection",
@@ -205,6 +222,12 @@
         "keyBind": "0"
       },
       "alerts": [
+	      { 
+          "alert": "Phase 3",
+          "alertDuration": 3.8, 
+          "timestamps": [0],
+          "icon": "Assets/Cerus.png"
+        },
         {
           "warning": "Green",
           "alert": "Green",
@@ -251,23 +274,8 @@
           "fillColor": [ 161, 52, 235, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
-          "timestamps": [ 41, 125 ]
-        },
-        {
-          "warning": "Tether (Mesmer portal)",
-          "alert": "Tether (Mesmer portal)",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 192 ]
-        },
-        {
-          "warning": "Tether (Move out)",
-          "alert": "Tether (Phase now)",
-          "fillColor": [ 161, 52, 235, 0 ],
-          "warningDuration": 7.5,
-          "alertDuration": 1,
-          "timestamps": [ 221 ]
+          "timestamps": [ 41, 125, 192, 221 ],
+	        "icon": "Assets/Portal_Entre.png"
         },
         {
           "warning": "Collection",
@@ -286,8 +294,8 @@
           "timestamps": [ 46, 247 ]
         },
         {
-          "warning": "AoE - Boss - NE",
-          "alert": "AoE - Boss - NE",
+          "warning": "AoE - Boss - North",
+          "alert": "AoE - Boss - North",
           "fillColor": [ 225, 235, 52, 0 ],
           "warningDuration": 7.5,
           "alertDuration": 1,
@@ -326,6 +334,12 @@
         "keyBind": "0"
       },
       "alerts": [
+        { 
+          "alert": "Phase 4",
+          "alertDuration": 4.5, 
+          "timestamps": [0],
+          "icon": "Assets/Cerus.png"
+        },
         {
           "warning": "Green",
           "alert": "Green",
