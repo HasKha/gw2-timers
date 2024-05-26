@@ -22,4 +22,4 @@ jobs:
         with:
           type: 'zip'
           filename: 'haskha.timers.zip'
-          exclusions: 'LICENSE README.md .github* .git*'
+          exclusions: 'LICENSE README.md *.github* *.git*'
