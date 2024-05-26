@@ -20,9 +20,6 @@ jobs:
 
       - uses: TheDoctor0/zip-release@0.7.6
         with:
-          filename: haskha.timers.zip
-          exclusions: 
-            LICENSE
-            README.md
-            .github/*
-            .git/*
+          type: 'zip'
+          filename: 'haskha.timers.zip'
+          exclusions: 'LICENSE README.md .github* .git*'
