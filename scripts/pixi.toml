@@ -1,0 +1,12 @@
+[project]
+authors = ["Haskha <ggori@live.com>"]
+channels = ["conda-forge"]
+name = "scripts"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.2,<3.14"
+pip = ">=25.0.1,<26"
