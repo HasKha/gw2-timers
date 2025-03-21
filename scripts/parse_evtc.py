@@ -88,7 +88,8 @@ def parse_evtc(path: str):
     agent_count = struct.unpack("I", f.read(4))[0]
     print("num agents: ", agent_count)
     toxic_geysers = []
-    ura_id = 0
+    ura_ids = []
+    agent_names = dict()
     for i in range(agent_count):
         agent = struct.unpack("QLLHHHHHH64s4x", f.read(96))
         (addr, prof, is_elite, toughness, concentration, healing, hitbox_width, condition, hitbox_height, name) = agent
@@ -102,6 +103,9 @@ def parse_evtc(path: str):
             print(name, "tough:", toughness, "conc:", concentration, "healing:", healing, "condition:", condition)
         if "Toxic Geyser" in name:
             toxic_geysers.append(addr)
+        if "Ura" in name:
+            ura_ids.append(addr)
+        agent_names[addr] = name
         # if "Ura" in name:
         #     ura_id = addr
         #     print("ura id: ", addr, name)
@@ -115,6 +119,7 @@ def parse_evtc(path: str):
 
     event_count = 0
     combat_start = 0
+    last_spawn = 0
     while True:
         event_count += 1
         data = f.read(64)
@@ -152,24 +157,27 @@ def parse_evtc(path: str):
         if is_statechange == StateChange.MapID.value:
             print("Map ID: ", src_agent)
         
-        if is_statechange == StateChange.Spawn.value:
-            if src_agent in toxic_geysers:
-                pass
-                # print("Toxic spawn at", time - combat_start, src_agent)
+        # if is_statechange == StateChange.Spawn.value:
+        #     if src_agent in toxic_geysers:
+        #         print("Toxic spawn at", time - combat_start, src_agent)
         if is_statechange == StateChange.Position.value:
             if src_agent in toxic_geysers:
                 position = struct.unpack("fff", data[12:24])
-                print("Toxic spawn at", (time - combat_start)/1000, ":", position)
-                
-            # print(event)
-        # if event_count > 5000:
-            # break
+                position_round = []
+                for i in range(3):
+                    position_round.append(round(position[i]))
+                time_from_start = (time - combat_start) / 1000
+                time_since_last = (time - last_spawn) / 1000
+                last_spawn = time
+                print(time_from_start, time_since_last, ":", position_round)
+        
 
     print("num events: ", event_count)
     f.close()
 
 def main():
-    path = "./logs/log.evtc"
+    path = "./logs/20250319-234628.evtc" # kadenar's
+    # path = "./logs/log.evtc"
     parse_evtc(path)
     return
 
