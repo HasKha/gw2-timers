@@ -75,6 +75,13 @@ class StateChange(Enum):
     StunBreak = auto()
     Unknown = auto()
 
+def convert_millimeters_to_gwinch(mm):
+    return mm / 39.3701
+def convert_position_from_arc(position):
+    x = convert_millimeters_to_gwinch(position[0])
+    y = -convert_millimeters_to_gwinch(position[2])
+    z = convert_millimeters_to_gwinch(position[1])
+    return (x, y, z)
 
 def parse_evtc(path: str):
     f = open(path, "rb")
@@ -162,14 +169,13 @@ def parse_evtc(path: str):
         #         print("Toxic spawn at", time - combat_start, src_agent)
         if is_statechange == StateChange.Position.value:
             if src_agent in toxic_geysers:
-                position = struct.unpack("fff", data[12:24])
-                position_round = []
-                for i in range(3):
-                    position_round.append(round(position[i]))
+                position = struct.unpack("fff", data[16:28])
+                # arc position is in millimeters. z down. game position is gwinches, z up.
+                position = convert_position_from_arc(position)
                 time_from_start = (time - combat_start) / 1000
                 time_since_last = (time - last_spawn) / 1000
                 last_spawn = time
-                print(time_from_start, time_since_last, ":", position_round)
+                print(time_from_start, time_since_last, ":", position)
         
 
     print("num events: ", event_count)

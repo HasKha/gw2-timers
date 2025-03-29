@@ -1,0 +1,100 @@
+import json
+
+geyser_locations = [
+    [196.7, 247.2, 269.7],
+    [181.6, 276.9, 269.9],
+    [193.8, 219.2, 269.8],
+    [183.0, 235.2, 269.8],
+    [165.2, 253.1, 269.9],
+    [158.0, 280.9, 269.9],
+    [178.8, 202.3, 269.9],
+    [161.7, 228.7, 269.8],
+    [145.9, 259.3, 269.8],
+    [162.6, 200.3, 269.8],
+    [145.5, 228.9, 269.8],
+    [122.4, 249.6, 269.8],
+    [136.7, 199.6, 269.8],
+    [109.5, 218.6, 269.8],
+]
+geyser_markers = [
+    "Spiral",
+    "Triangle",
+    "Circle",
+    "Heart",
+    "Cloud",
+    "X",
+    "Arrow",
+    "Square",
+    "Star",
+    "Cat",
+    "Fox",
+    "Plus",
+    "Frog",
+    "Fish",
+]
+p1_start = 0
+p2_start = 7
+p3_start = 6
+
+data = {
+    "id": "haskha.ura.rp",
+    "name": "Ura LCM\nToxic Spawns",
+    "category": "Raids",
+    "description": "",
+    "author": "Haskha.7509",
+    "map": 1564,
+    "reset": {
+        "position": [194.095, 403.29, 265.844],
+        "radius": 15,
+        "requireEntry": True,
+    },
+}
+
+def get_alert(time: int, index: int):
+    return {
+        "warning": geyser_markers[index],
+        "warningDuration": 12,
+        "timestamps": [time],
+        "icon": "Assets/" + geyser_markers[index] + ".png",
+    }
+def get_direction(time: int, index: int):
+    return {
+            "name": geyser_markers[index],
+            "destination": geyser_locations[index],
+            "animSpeed": 0,
+            "texture": "Assets/ArrowTrail.png",
+            "duration": 12,
+            "timestamps": [time-12],
+        }
+# P1
+data["phases"] = []
+data["phases"].append(
+    {
+        "name": "Ura LCM - Phase 1",
+        "start": {
+            "position": [145.639, 235.136, 269.928],
+            "radius": 90,
+            "requireEntry": True,
+            "requireCombat": True,
+        },
+        "finish": {"type": "key", "keyBind": "0"},
+        "alerts": [],
+        "directions": [],
+    }
+)
+time = 12
+index = p1_start
+while time < 150:
+    data["phases"][0]["alerts"].append(get_alert(time, index))
+    data["phases"][0]["directions"].append(get_direction(time, index))
+    time += 12
+    index += 1
+
+# P2
+
+time = 0
+index = p2_start
+
+file = open("../ura_lcm_toxic_spawns.bhtimer", "w")
+json.dump(data, file, indent=2)
+file.close()
