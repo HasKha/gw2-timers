@@ -22,10 +22,10 @@ jobs:
         with:
           type: 'zip'
           filename: 'haskha.timers.zip'
-          exclusions: 'LICENSE README.md *.github* *.git*'
+          exclusions: 'LICENSE README.md *.github* *.git* scripts/*'
 
       - uses: actions/upload-artifact@v4
         with:
-          name: haskha-timers
+          name: haskha.timers
           path: ${{ github.workspace }}/haskha.timers.zip
           compression-level: 0
