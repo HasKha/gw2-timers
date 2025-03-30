@@ -41,7 +41,7 @@ data = {
     "id": "haskha.ura.toxic",
     "name": "Ura LCM\nToxic Spawns",
     "category": "Raids",
-    "description": "Automatically begins on fight start.\nPress trigger key 0 when the toxic at square appears.\nPress trigger key 0 at 40%",
+    "description": "Automatically begins on fight start.\nAfter 70%, press trigger key 0 when the first toxic appears at square.\nPress trigger key 0 again at 40%",
     "author": "Haskha.7509",
     "map": 1564,
     "reset": {
