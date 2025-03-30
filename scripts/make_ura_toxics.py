@@ -32,15 +32,16 @@ geyser_markers = [
     "Frog",
     "Fish",
 ]
+num_geysers = len(geyser_locations)
 p1_start = 0
 p2_start = 7
 p3_start = 6
 
 data = {
-    "id": "haskha.ura.rp",
+    "id": "haskha.ura.toxic",
     "name": "Ura LCM\nToxic Spawns",
     "category": "Raids",
-    "description": "",
+    "description": "Automatically begins on fight start.\nPress trigger key 0 when the toxic at square appears.\nPress trigger key 0 at 40%",
     "author": "Haskha.7509",
     "map": 1564,
     "reset": {
@@ -50,6 +51,27 @@ data = {
     },
 }
 
+
+def get_phase_header(name):
+    return {
+        "name": name,
+        "start": {
+            "position": [145.639, 235.136, 269.928],
+            "radius": 90,
+            "requireEntry": True,
+            "requireCombat": True,
+        },
+        "finish": {
+            "position": [145.639, 235.136, 269.928],
+            "radius": 200,
+            "type": "key",
+            "keyBind": "0",
+        },
+        "alerts": [],
+        "directions": [],
+    }
+
+
 def get_alert(time: int, index: int):
     return {
         "warning": geyser_markers[index],
@@ -57,43 +79,62 @@ def get_alert(time: int, index: int):
         "timestamps": [time],
         "icon": "Assets/" + geyser_markers[index] + ".png",
     }
+
+
 def get_direction(time: int, index: int):
     return {
-            "name": geyser_markers[index],
-            "destination": geyser_locations[index],
-            "animSpeed": 0,
-            "texture": "Assets/ArrowTrail.png",
-            "duration": 12,
-            "timestamps": [time-12],
-        }
+        "name": geyser_markers[index],
+        "destination": geyser_locations[index],
+        "animSpeed": 0,
+        "texture": "Assets/ArrowTrail.png",
+        "duration": 12,
+        "timestamps": [time - 12],
+    }
+
+
 # P1
 data["phases"] = []
-data["phases"].append(
-    {
-        "name": "Ura LCM - Phase 1",
-        "start": {
-            "position": [145.639, 235.136, 269.928],
-            "radius": 90,
-            "requireEntry": True,
-            "requireCombat": True,
-        },
-        "finish": {"type": "key", "keyBind": "0"},
-        "alerts": [],
-        "directions": [],
-    }
-)
+data["phases"].append(get_phase_header("Ura LCM - Phase 1"))
 time = 12
 index = p1_start
 while time < 150:
     data["phases"][0]["alerts"].append(get_alert(time, index))
     data["phases"][0]["directions"].append(get_direction(time, index))
     time += 12
-    index += 1
+    index = (index + 1) % num_geysers
 
 # P2
-
-time = 0
+data["phases"].append(get_phase_header("Ura LCM - Phase 2"))
+time = -2
 index = p2_start
+while time < 300:
+    data["phases"][1]["alerts"].append(get_alert(time, index))
+    data["phases"][1]["directions"].append(get_direction(time, index))
+    time += 12
+    index = (index + 1) % num_geysers
+
+# P3
+data["phases"].append(get_phase_header("Ura LCM - Phase 3"))
+time = -2
+index = p3_start
+while time < 300:
+    data["phases"][2]["alerts"].append(get_alert(time, index))
+    data["phases"][2]["directions"].append(get_direction(time, index))
+    time += 12
+    index = (index + 1) % num_geysers
+
+# P4 (not existing, just end point for now)
+data["phases"].append(
+    {
+        "name": "End",
+        "start": {
+            "position": [145.639, 235.136, 269.928],
+            "radius": 90,
+            "requireEntry": True,
+            "requireCombat": True,
+        },
+    }
+)
 
 file = open("../ura_lcm_toxic_spawns.bhtimer", "w")
 json.dump(data, file, indent=2)

@@ -1,8 +1,8 @@
 {
-  "id": "haskha.ura.rp",
+  "id": "haskha.ura.toxic",
   "name": "Ura LCM\nToxic Spawns",
   "category": "Raids",
-  "description": "",
+  "description": "Automatically begins on fight start.\nPress trigger key 0 when the toxic at square appears.\nPress trigger key 0 at 40%",
   "author": "Haskha.7509",
   "map": 1564,
   "reset": {
@@ -28,6 +28,12 @@
         "requireCombat": true
       },
       "finish": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 200,
         "type": "key",
         "keyBind": "0"
       },
@@ -299,6 +305,1217 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Ura LCM - Phase 2",
+      "start": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 90,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 200,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Square",
+          "warningDuration": 12,
+          "timestamps": [
+            -2
+          ],
+          "icon": "Assets/Square.png"
+        },
+        {
+          "warning": "Star",
+          "warningDuration": 12,
+          "timestamps": [
+            10
+          ],
+          "icon": "Assets/Star.png"
+        },
+        {
+          "warning": "Cat",
+          "warningDuration": 12,
+          "timestamps": [
+            22
+          ],
+          "icon": "Assets/Cat.png"
+        },
+        {
+          "warning": "Fox",
+          "warningDuration": 12,
+          "timestamps": [
+            34
+          ],
+          "icon": "Assets/Fox.png"
+        },
+        {
+          "warning": "Plus",
+          "warningDuration": 12,
+          "timestamps": [
+            46
+          ],
+          "icon": "Assets/Plus.png"
+        },
+        {
+          "warning": "Frog",
+          "warningDuration": 12,
+          "timestamps": [
+            58
+          ],
+          "icon": "Assets/Frog.png"
+        },
+        {
+          "warning": "Fish",
+          "warningDuration": 12,
+          "timestamps": [
+            70
+          ],
+          "icon": "Assets/Fish.png"
+        },
+        {
+          "warning": "Spiral",
+          "warningDuration": 12,
+          "timestamps": [
+            82
+          ],
+          "icon": "Assets/Spiral.png"
+        },
+        {
+          "warning": "Triangle",
+          "warningDuration": 12,
+          "timestamps": [
+            94
+          ],
+          "icon": "Assets/Triangle.png"
+        },
+        {
+          "warning": "Circle",
+          "warningDuration": 12,
+          "timestamps": [
+            106
+          ],
+          "icon": "Assets/Circle.png"
+        },
+        {
+          "warning": "Heart",
+          "warningDuration": 12,
+          "timestamps": [
+            118
+          ],
+          "icon": "Assets/Heart.png"
+        },
+        {
+          "warning": "Cloud",
+          "warningDuration": 12,
+          "timestamps": [
+            130
+          ],
+          "icon": "Assets/Cloud.png"
+        },
+        {
+          "warning": "X",
+          "warningDuration": 12,
+          "timestamps": [
+            142
+          ],
+          "icon": "Assets/X.png"
+        },
+        {
+          "warning": "Arrow",
+          "warningDuration": 12,
+          "timestamps": [
+            154
+          ],
+          "icon": "Assets/Arrow.png"
+        },
+        {
+          "warning": "Square",
+          "warningDuration": 12,
+          "timestamps": [
+            166
+          ],
+          "icon": "Assets/Square.png"
+        },
+        {
+          "warning": "Star",
+          "warningDuration": 12,
+          "timestamps": [
+            178
+          ],
+          "icon": "Assets/Star.png"
+        },
+        {
+          "warning": "Cat",
+          "warningDuration": 12,
+          "timestamps": [
+            190
+          ],
+          "icon": "Assets/Cat.png"
+        },
+        {
+          "warning": "Fox",
+          "warningDuration": 12,
+          "timestamps": [
+            202
+          ],
+          "icon": "Assets/Fox.png"
+        },
+        {
+          "warning": "Plus",
+          "warningDuration": 12,
+          "timestamps": [
+            214
+          ],
+          "icon": "Assets/Plus.png"
+        },
+        {
+          "warning": "Frog",
+          "warningDuration": 12,
+          "timestamps": [
+            226
+          ],
+          "icon": "Assets/Frog.png"
+        },
+        {
+          "warning": "Fish",
+          "warningDuration": 12,
+          "timestamps": [
+            238
+          ],
+          "icon": "Assets/Fish.png"
+        },
+        {
+          "warning": "Spiral",
+          "warningDuration": 12,
+          "timestamps": [
+            250
+          ],
+          "icon": "Assets/Spiral.png"
+        },
+        {
+          "warning": "Triangle",
+          "warningDuration": 12,
+          "timestamps": [
+            262
+          ],
+          "icon": "Assets/Triangle.png"
+        },
+        {
+          "warning": "Circle",
+          "warningDuration": 12,
+          "timestamps": [
+            274
+          ],
+          "icon": "Assets/Circle.png"
+        },
+        {
+          "warning": "Heart",
+          "warningDuration": 12,
+          "timestamps": [
+            286
+          ],
+          "icon": "Assets/Heart.png"
+        },
+        {
+          "warning": "Cloud",
+          "warningDuration": 12,
+          "timestamps": [
+            298
+          ],
+          "icon": "Assets/Cloud.png"
+        }
+      ],
+      "directions": [
+        {
+          "name": "Square",
+          "destination": [
+            161.7,
+            228.7,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            -14
+          ]
+        },
+        {
+          "name": "Star",
+          "destination": [
+            145.9,
+            259.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            -2
+          ]
+        },
+        {
+          "name": "Cat",
+          "destination": [
+            162.6,
+            200.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            10
+          ]
+        },
+        {
+          "name": "Fox",
+          "destination": [
+            145.5,
+            228.9,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            22
+          ]
+        },
+        {
+          "name": "Plus",
+          "destination": [
+            122.4,
+            249.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            34
+          ]
+        },
+        {
+          "name": "Frog",
+          "destination": [
+            136.7,
+            199.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            46
+          ]
+        },
+        {
+          "name": "Fish",
+          "destination": [
+            109.5,
+            218.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            58
+          ]
+        },
+        {
+          "name": "Spiral",
+          "destination": [
+            196.7,
+            247.2,
+            269.7
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            70
+          ]
+        },
+        {
+          "name": "Triangle",
+          "destination": [
+            181.6,
+            276.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            82
+          ]
+        },
+        {
+          "name": "Circle",
+          "destination": [
+            193.8,
+            219.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            94
+          ]
+        },
+        {
+          "name": "Heart",
+          "destination": [
+            183.0,
+            235.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            106
+          ]
+        },
+        {
+          "name": "Cloud",
+          "destination": [
+            165.2,
+            253.1,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            118
+          ]
+        },
+        {
+          "name": "X",
+          "destination": [
+            158.0,
+            280.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            130
+          ]
+        },
+        {
+          "name": "Arrow",
+          "destination": [
+            178.8,
+            202.3,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            142
+          ]
+        },
+        {
+          "name": "Square",
+          "destination": [
+            161.7,
+            228.7,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            154
+          ]
+        },
+        {
+          "name": "Star",
+          "destination": [
+            145.9,
+            259.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            166
+          ]
+        },
+        {
+          "name": "Cat",
+          "destination": [
+            162.6,
+            200.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            178
+          ]
+        },
+        {
+          "name": "Fox",
+          "destination": [
+            145.5,
+            228.9,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            190
+          ]
+        },
+        {
+          "name": "Plus",
+          "destination": [
+            122.4,
+            249.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            202
+          ]
+        },
+        {
+          "name": "Frog",
+          "destination": [
+            136.7,
+            199.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            214
+          ]
+        },
+        {
+          "name": "Fish",
+          "destination": [
+            109.5,
+            218.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            226
+          ]
+        },
+        {
+          "name": "Spiral",
+          "destination": [
+            196.7,
+            247.2,
+            269.7
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            238
+          ]
+        },
+        {
+          "name": "Triangle",
+          "destination": [
+            181.6,
+            276.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            250
+          ]
+        },
+        {
+          "name": "Circle",
+          "destination": [
+            193.8,
+            219.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            262
+          ]
+        },
+        {
+          "name": "Heart",
+          "destination": [
+            183.0,
+            235.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            274
+          ]
+        },
+        {
+          "name": "Cloud",
+          "destination": [
+            165.2,
+            253.1,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            286
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ura LCM - Phase 3",
+      "start": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 90,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 200,
+        "type": "key",
+        "keyBind": "0"
+      },
+      "alerts": [
+        {
+          "warning": "Arrow",
+          "warningDuration": 12,
+          "timestamps": [
+            -2
+          ],
+          "icon": "Assets/Arrow.png"
+        },
+        {
+          "warning": "Square",
+          "warningDuration": 12,
+          "timestamps": [
+            10
+          ],
+          "icon": "Assets/Square.png"
+        },
+        {
+          "warning": "Star",
+          "warningDuration": 12,
+          "timestamps": [
+            22
+          ],
+          "icon": "Assets/Star.png"
+        },
+        {
+          "warning": "Cat",
+          "warningDuration": 12,
+          "timestamps": [
+            34
+          ],
+          "icon": "Assets/Cat.png"
+        },
+        {
+          "warning": "Fox",
+          "warningDuration": 12,
+          "timestamps": [
+            46
+          ],
+          "icon": "Assets/Fox.png"
+        },
+        {
+          "warning": "Plus",
+          "warningDuration": 12,
+          "timestamps": [
+            58
+          ],
+          "icon": "Assets/Plus.png"
+        },
+        {
+          "warning": "Frog",
+          "warningDuration": 12,
+          "timestamps": [
+            70
+          ],
+          "icon": "Assets/Frog.png"
+        },
+        {
+          "warning": "Fish",
+          "warningDuration": 12,
+          "timestamps": [
+            82
+          ],
+          "icon": "Assets/Fish.png"
+        },
+        {
+          "warning": "Spiral",
+          "warningDuration": 12,
+          "timestamps": [
+            94
+          ],
+          "icon": "Assets/Spiral.png"
+        },
+        {
+          "warning": "Triangle",
+          "warningDuration": 12,
+          "timestamps": [
+            106
+          ],
+          "icon": "Assets/Triangle.png"
+        },
+        {
+          "warning": "Circle",
+          "warningDuration": 12,
+          "timestamps": [
+            118
+          ],
+          "icon": "Assets/Circle.png"
+        },
+        {
+          "warning": "Heart",
+          "warningDuration": 12,
+          "timestamps": [
+            130
+          ],
+          "icon": "Assets/Heart.png"
+        },
+        {
+          "warning": "Cloud",
+          "warningDuration": 12,
+          "timestamps": [
+            142
+          ],
+          "icon": "Assets/Cloud.png"
+        },
+        {
+          "warning": "X",
+          "warningDuration": 12,
+          "timestamps": [
+            154
+          ],
+          "icon": "Assets/X.png"
+        },
+        {
+          "warning": "Arrow",
+          "warningDuration": 12,
+          "timestamps": [
+            166
+          ],
+          "icon": "Assets/Arrow.png"
+        },
+        {
+          "warning": "Square",
+          "warningDuration": 12,
+          "timestamps": [
+            178
+          ],
+          "icon": "Assets/Square.png"
+        },
+        {
+          "warning": "Star",
+          "warningDuration": 12,
+          "timestamps": [
+            190
+          ],
+          "icon": "Assets/Star.png"
+        },
+        {
+          "warning": "Cat",
+          "warningDuration": 12,
+          "timestamps": [
+            202
+          ],
+          "icon": "Assets/Cat.png"
+        },
+        {
+          "warning": "Fox",
+          "warningDuration": 12,
+          "timestamps": [
+            214
+          ],
+          "icon": "Assets/Fox.png"
+        },
+        {
+          "warning": "Plus",
+          "warningDuration": 12,
+          "timestamps": [
+            226
+          ],
+          "icon": "Assets/Plus.png"
+        },
+        {
+          "warning": "Frog",
+          "warningDuration": 12,
+          "timestamps": [
+            238
+          ],
+          "icon": "Assets/Frog.png"
+        },
+        {
+          "warning": "Fish",
+          "warningDuration": 12,
+          "timestamps": [
+            250
+          ],
+          "icon": "Assets/Fish.png"
+        },
+        {
+          "warning": "Spiral",
+          "warningDuration": 12,
+          "timestamps": [
+            262
+          ],
+          "icon": "Assets/Spiral.png"
+        },
+        {
+          "warning": "Triangle",
+          "warningDuration": 12,
+          "timestamps": [
+            274
+          ],
+          "icon": "Assets/Triangle.png"
+        },
+        {
+          "warning": "Circle",
+          "warningDuration": 12,
+          "timestamps": [
+            286
+          ],
+          "icon": "Assets/Circle.png"
+        },
+        {
+          "warning": "Heart",
+          "warningDuration": 12,
+          "timestamps": [
+            298
+          ],
+          "icon": "Assets/Heart.png"
+        }
+      ],
+      "directions": [
+        {
+          "name": "Arrow",
+          "destination": [
+            178.8,
+            202.3,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            -14
+          ]
+        },
+        {
+          "name": "Square",
+          "destination": [
+            161.7,
+            228.7,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            -2
+          ]
+        },
+        {
+          "name": "Star",
+          "destination": [
+            145.9,
+            259.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            10
+          ]
+        },
+        {
+          "name": "Cat",
+          "destination": [
+            162.6,
+            200.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            22
+          ]
+        },
+        {
+          "name": "Fox",
+          "destination": [
+            145.5,
+            228.9,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            34
+          ]
+        },
+        {
+          "name": "Plus",
+          "destination": [
+            122.4,
+            249.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            46
+          ]
+        },
+        {
+          "name": "Frog",
+          "destination": [
+            136.7,
+            199.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            58
+          ]
+        },
+        {
+          "name": "Fish",
+          "destination": [
+            109.5,
+            218.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            70
+          ]
+        },
+        {
+          "name": "Spiral",
+          "destination": [
+            196.7,
+            247.2,
+            269.7
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            82
+          ]
+        },
+        {
+          "name": "Triangle",
+          "destination": [
+            181.6,
+            276.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            94
+          ]
+        },
+        {
+          "name": "Circle",
+          "destination": [
+            193.8,
+            219.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            106
+          ]
+        },
+        {
+          "name": "Heart",
+          "destination": [
+            183.0,
+            235.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            118
+          ]
+        },
+        {
+          "name": "Cloud",
+          "destination": [
+            165.2,
+            253.1,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            130
+          ]
+        },
+        {
+          "name": "X",
+          "destination": [
+            158.0,
+            280.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            142
+          ]
+        },
+        {
+          "name": "Arrow",
+          "destination": [
+            178.8,
+            202.3,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            154
+          ]
+        },
+        {
+          "name": "Square",
+          "destination": [
+            161.7,
+            228.7,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            166
+          ]
+        },
+        {
+          "name": "Star",
+          "destination": [
+            145.9,
+            259.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            178
+          ]
+        },
+        {
+          "name": "Cat",
+          "destination": [
+            162.6,
+            200.3,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            190
+          ]
+        },
+        {
+          "name": "Fox",
+          "destination": [
+            145.5,
+            228.9,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            202
+          ]
+        },
+        {
+          "name": "Plus",
+          "destination": [
+            122.4,
+            249.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            214
+          ]
+        },
+        {
+          "name": "Frog",
+          "destination": [
+            136.7,
+            199.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            226
+          ]
+        },
+        {
+          "name": "Fish",
+          "destination": [
+            109.5,
+            218.6,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            238
+          ]
+        },
+        {
+          "name": "Spiral",
+          "destination": [
+            196.7,
+            247.2,
+            269.7
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            250
+          ]
+        },
+        {
+          "name": "Triangle",
+          "destination": [
+            181.6,
+            276.9,
+            269.9
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            262
+          ]
+        },
+        {
+          "name": "Circle",
+          "destination": [
+            193.8,
+            219.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            274
+          ]
+        },
+        {
+          "name": "Heart",
+          "destination": [
+            183.0,
+            235.2,
+            269.8
+          ],
+          "animSpeed": 0,
+          "texture": "Assets/ArrowTrail.png",
+          "duration": 12,
+          "timestamps": [
+            286
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End",
+      "start": {
+        "position": [
+          145.639,
+          235.136,
+          269.928
+        ],
+        "radius": 90,
+        "requireEntry": true,
+        "requireCombat": true
+      }
     }
   ]
 }
