@@ -96,6 +96,7 @@ def parse_evtc(path: str):
     print("num agents: ", agent_count)
     toxic_geysers = []
     ura_ids = []
+    spawners = []
     agent_names = dict()
     for i in range(agent_count):
         agent = struct.unpack("QLLHHHHHH64s4x", f.read(96))
@@ -112,6 +113,8 @@ def parse_evtc(path: str):
             toxic_geysers.append(addr)
         if "Ura" in name:
             ura_ids.append(addr)
+        if "Titanspawn" in name:
+            spawners.append(addr)
         agent_names[addr] = name
         # if "Ura" in name:
         #     ura_id = addr
